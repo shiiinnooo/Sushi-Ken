@@ -1,0 +1,479 @@
+.container {
+  position: relative;
+}
+.navbar {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .social-block {
+  display: flex;
+  padding: 2em;
+}
+.navbar .social-block li {
+  margin: 0 .6em;
+}
+.navbar .social-block li > a {
+  color: #c9c9c9;
+}
+.navbar h1 {
+  color: #fff;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: .2em;
+  padding: 1.2em;
+}
+.navbar h1 > a {
+  color: #fff;
+}
+.navbar .hamburger-menu {
+  padding: 2em;
+}
+@media (max-width: 960px) {
+  .navbar .social-block {
+    display: none;
+  }
+  .navbar h1 {
+    padding: .6em;
+    font-size: 24px;
+  }
+  .navbar .hamburger-menu {
+    padding: .6em;
+  }
+}
+
+.home {
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+}
+.home .swiper {
+  width: 100%;
+  height: 100vh;
+}
+.home .home-swiper img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.home p {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 600;
+  letter-spacing: .2em;
+  font-size: 13px;
+  color: #c9c9c9;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2.5em;
+}
+
+.about {
+  height: 100vh;
+  display: flex;
+}
+.about .about-img {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.about .about-img img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 60%;
+  object-fit: contain;
+}
+.about .about-content {
+  background-image: url('http://www.gastrotheme.com/sushi/wp-content/uploads/sites/5/2017/05/gastro-sushi-theme-pattern-01.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #434343;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .about-content p {
+  max-width: 600px;
+  padding: 10%;
+  letter-spacing: .15em;
+  line-height: 2;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+@media (max-width: 767px) {
+  .about {
+    height: 200vh;
+    display: block;
+  }
+}
+
+.chef {
+  height: 100vh;
+  display: flex;
+}
+.chef .chef-content {
+  width: 100%;
+  height: 100vh;
+  background-image: url('http://www.gastrotheme.com/sushi/wp-content/uploads/sites/5/2017/05/gastro-sushi-theme-background-09.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chef .chef-content .chef-content-description {
+  max-width: 600px;
+  padding: 10%;
+  color: #c9c9c9;
+  font-family: 'Mukta', sans-serif;
+}
+.chef-content-description h2 {
+  font-weight: 300;
+  font-size: 36px;
+  letter-spacing: .2em;
+  padding-bottom: 2em;
+}
+.chef-content-description p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 2em;
+  letter-spacing: .2px;
+}
+.chef-content-description td {
+  font-size: 16px;
+  padding-top: .8em;
+  padding-bottom: .8em;
+}
+.chef-content-description tr > td {
+  padding-right: 3em;
+}
+.chef-content-description img {
+  max-width: 110px;
+  padding-top: 4em;
+}
+.chef .chef-img {
+  height: 100vh;
+  width: 100%;
+  background-image: url('http://www.gastrotheme.com/sushi/wp-content/uploads/sites/5/2017/05/gastro-sushi-theme-05.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (max-width: 960px) {
+  .chef-content-description h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .chef {
+    height: 200vh;
+    display: block;
+  }
+}
+
+.menu {
+  height: 100vh;
+  display: flex;
+}
+.menu .menu-content {
+  width: 50%;
+  height: 100vh;
+  opacity: 0.95;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu .menu-content .menu-content-description {
+  max-width: 600px;
+  padding: 10%;
+  font-family: 'Mukta', sans-serif;
+  text-align: center;
+}
+.menu-content-description h2 {
+  font-weight: 300;
+  font-size: 36px;
+  letter-spacing: .2em;
+  padding-bottom: 1em;
+}
+.menu-content-description p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 2em;
+  letter-spacing: .2px;
+}
+.menu-content-description button {
+  border: 1px solid #000;
+  padding: 1em 2em;
+  margin-left: 6px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.menu-content-description button:hover {
+  background-color: #38332f;
+  color: #fff;
+}
+.menu-content-description span {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .1em;
+}
+.menu .menu-img {
+  width: 50%;
+  height: 100vh;
+}
+.menu .menu-img .swiper {
+  width: 100%;
+  height: 100vh;
+}
+.menu .menu-img .swiper img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+@media (max-width: 960px) {
+  .menu-content-description h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .menu {
+    height: 200vh;
+    display: block;
+  }
+  .menu .menu-content, .menu .menu-img {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .menu-content-description button {
+    display: block;
+    margin: 8px auto;
+  }
+}
+
+.reservation {
+  background-image: url('http://www.gastrotheme.com/sushi/wp-content/uploads/sites/5/2017/05/gastro-sushi-theme-background-01.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+}
+.reservation .reservation-content {
+  background-color: rgba(0, 0, 0, .5);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reservation .reservation-content .reservation-content-description {
+  max-width: 600px;
+  padding: 10%;
+  color: #c9c9c9;
+  opacity: 1;
+}
+.reservation-content-description h2 {
+  font-weight: 300;
+  font-size: 36px;
+  letter-spacing: .2em;
+  padding-bottom: 1em;
+  font-family: 'Mukta', sans-serif;
+}
+.reservation-content-description input, select, textarea {
+  border: 1px solid #c9c9c9;
+  padding: .6em;
+  color: #c9c9c9;
+  font-weight: 700;
+  font-family: 'Mukta', sans-serif;
+}
+.reservation-content-description input:focus, select:focus, textarea:focus {
+  outline: none;
+  border: 1px solid #cc2d0e;
+}
+.reservation-content-description input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-inner-spin-button, 
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.reservation-content-description input[type="date"]:focus::-webkit-inner-spin-button,
+input[type="date"]:focus::-webkit-calendar-picker-indicator,
+.reservation-content-description input[type="time"]:focus::-webkit-inner-spin-button, 
+input[type="time"]:focus::-webkit-calendar-picker-indicator {
+  display: block;
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
+  appearance: auto;
+}
+.reservation-content-description select > option {
+  color: #000;
+}
+.reservation-content-description textarea {
+  width: 100%;
+  height: 70px;
+}
+.reservation-content-description input[type="checkbox"] {
+  margin: 1em 0 4em;
+}
+.reservation-content-description label[for="subscribe"] {
+  font-size: 12px;
+  font-family: 'Mukta', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding-left: 4px;
+  cursor: pointer;
+}
+.reservation-content-description button[type="submit"] {
+  font-size: 14px;
+  font-family: 'Mukta', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 1em 2em;
+  background-color: #cc2d0e;
+  color: #c9c9c9;
+  cursor: pointer;
+}
+.reservation-content-description button[type="submit"]:hover {
+  background-color: #9c3a3a;
+}
+.reservation-content-description .section1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 1em;
+}
+.reservation-content-description .section1 input{
+  width: 48%;
+}
+.reservation-content-description .section2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 1em;
+}
+.reservation-content-description .section2 input{
+  width: 34%;
+}
+.reservation-content-description .section2 select{
+  width: 26%;
+}
+.reservation .reservation-img {
+  width: 100%;
+  height: 100vh;
+}
+@media (max-width: 960px) {
+  .reservation-content-description h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .reservation {
+    height: 100vh;
+    display: block;
+  }
+  .reservation .reservation-img {
+    display: none;
+  }
+  .reservation-content-description .section1,
+  .reservation-content-description .section2 {
+    display: block;
+    padding: 0;
+  }
+  .reservation-content-description .section1 input {
+    width: 100%;
+  }
+  .reservation-content-description .section2 input,
+  .reservation-content-description .section2 select {
+    width: 100%;
+  }
+  .reservation-content-description input,
+  .reservation-content-description select,
+  .reservation-content-description textarea {
+    margin-bottom: 1em;
+  }
+}
+
+.contact {
+  height: 100vh;
+  display: flex;
+  background-image: url('http://www.gastrotheme.com/sushi/wp-content/uploads/sites/5/2017/05/gastro-sushi-theme-background-02.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact .contact-content {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  opacity: 0.95;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact-content .contact-content-description {
+  max-width: 600px;
+  padding: 10%;
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+}
+.contact-content-description h2 {
+  font-weight: 300;
+  font-size: 36px;
+  letter-spacing: .2em;
+  padding-bottom: 1em;
+}
+.contact-content-description p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 2em;
+  letter-spacing: .2px;
+}
+.contact-content-description .social-block {
+  display: flex;
+  justify-content: center;
+}
+.contact-content-description .social-block li {
+  margin: 0 .6em;
+}
+.contact-content-description  .social-block li > a {
+  color: #000;
+}
+.contact .contact-img {
+  width: 100%;
+  height: 100vh;
+}
+@media (max-width: 960px) {
+  .contact-content-description h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .contact {
+    height: 100vh;
+    display: block;
+  }
+  .contact .contact-img {
+    display: none;
+  }
+}

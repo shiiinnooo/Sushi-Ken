@@ -308,6 +308,9 @@
   outline: none;
   border: 1px solid #cc2d0e;
 }
+.reservation-content-description .time::before {
+  content: ' ';
+}
 .reservation-content-description input[type="date"]::-webkit-inner-spin-button,
 input[type="date"]::-webkit-calendar-picker-indicator,
 input[type="time"]::-webkit-inner-spin-button, 
@@ -325,6 +328,33 @@ input[type="time"]:focus::-webkit-calendar-picker-indicator {
   -webkit-appearance: auto;
   -moz-appearance: auto;
   appearance: auto;
+}
+.reservation-content-description input[type="date"],
+.reservation-content-description input[type="time"] {
+  color: transparent;
+  display: block;
+}
+.reservation-content-description input[type="date"]:invalid::before,
+.reservation-content-description input[type="time"]:invalid::before {
+  color: grey;
+  content: attr(placeholder);
+  padding-left: 2px;
+}
+.reservation-content-description input[type="date"]:focus,
+.reservation-content-description input[type="date"]:active,
+.reservation-content-description input[type="date"]:valid,
+.reservation-content-description input[type="time"]:focus,
+.reservation-content-description input[type="time"]:active,
+.reservation-content-description input[type="time"]:valid {
+  color: #c9c9c9;
+}
+.reservation-content-description input[type="date"]:focus::before,
+.reservation-content-description input[type="date"]:active::before,
+.reservation-content-description input[type="date"]:valid::before,
+.reservation-content-description input[type="time"]:focus::before,
+.reservation-content-description input[type="time"]:active::before,
+.reservation-content-description input[type="time"]:valid::before {
+  display: none;
 }
 .reservation-content-description select > option {
   color: #000;

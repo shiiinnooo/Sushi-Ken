@@ -119,6 +119,9 @@
     height: 200vh;
     display: block;
   }
+  .about .about-content {
+    text-align: center;
+  }
 }
 
 .chef {
@@ -147,25 +150,28 @@
   font-weight: 300;
   font-size: 36px;
   letter-spacing: .2em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 .chef-content-description p {
   font-size: 16px;
   line-height: 1.5;
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
   letter-spacing: .2px;
+}
+.chef-content-description table, tbody {
+  width: 100%;
+}
+.chef-content-description tr{
+  width: 100%;
 }
 .chef-content-description td {
   font-size: 16px;
   padding-top: .8em;
   padding-bottom: .8em;
 }
-.chef-content-description tr > td {
-  padding-right: 3em;
-}
-.chef-content-description img {
+.chef-content-description .image img {
   max-width: 110px;
-  padding-top: 4em;
+  padding-top: 2em;
 }
 .chef .chef-img {
   height: 100vh;
@@ -184,12 +190,21 @@
   .chef {
     height: 200vh;
     display: block;
+    text-align: center;
+  }
+  .chef-content-description td {
+    text-align: center;
+  }
+  .chef-content-description .image {
+    display: flex;
+    justify-content: center;
   }
 }
 
 .menu {
   height: 100vh;
   display: flex;
+  color: #38332F;
 }
 .menu .menu-content {
   width: 50%;
@@ -220,6 +235,7 @@
 }
 .menu-content-description button {
   border: 1px solid #000;
+  color: #38332F;
   padding: 1em 2em;
   margin-left: 6px;
   margin-right: 6px;
@@ -337,7 +353,7 @@ input[type="time"]:focus::-webkit-calendar-picker-indicator {
 }
 .reservation-content-description input[type="date"]:invalid::before,
 .reservation-content-description input[type="time"]:invalid::before {
-  color: #c9c9c9;
+  color: grey;
   content: attr(placeholder);
   padding-left: 2px;
 }
@@ -442,6 +458,10 @@ input[type="time"]:focus::-webkit-calendar-picker-indicator {
   .reservation-content-description select,
   .reservation-content-description textarea {
     margin-bottom: 1em;
+  }
+  .reservation-content-description input[type="date"]:invalid::before,
+  .reservation-content-description input[type="time"]:invalid::before {
+    color: #c9c9c9;
   }
 }
 

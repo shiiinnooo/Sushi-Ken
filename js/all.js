@@ -1,3 +1,5 @@
+new WOW().init();
+
 const homeSwiper = new Swiper('.home-swiper', {
   autoplay: {
     delay: 3000,

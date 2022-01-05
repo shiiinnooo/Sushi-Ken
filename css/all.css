@@ -201,7 +201,7 @@ html {
   object-fit: contain;
 }
 .about .about-content {
-  background-image: url('http://www.gastrotheme.com/sushi/wp-content/uploads/sites/5/2017/05/gastro-sushi-theme-pattern-01.png');
+  background-image: url('../image/gastro-sushi-theme-pattern-01.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -238,7 +238,7 @@ html {
 .chef .chef-content {
   width: 100%;
   height: 100vh;
-  background-image: url('http://www.gastrotheme.com/sushi/wp-content/uploads/sites/5/2017/05/gastro-sushi-theme-background-09.jpg');
+  background-image: url('../image/gastro-sushi-theme-background-09.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -283,7 +283,7 @@ html {
 .chef .chef-img {
   height: 100vh;
   width: 100%;
-  background-image: url('http://www.gastrotheme.com/sushi/wp-content/uploads/sites/5/2017/05/gastro-sushi-theme-05.jpg');
+  background-image: url('../image/gastro-sushi-theme-05.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -392,7 +392,7 @@ html {
 }
 
 .reservation {
-  background-image: url('http://www.gastrotheme.com/sushi/wp-content/uploads/sites/5/2017/05/gastro-sushi-theme-background-01.jpg');
+  background-image: url('../image/gastro-sushi-theme-background-01.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -546,6 +546,9 @@ input[type="time"]:focus::-webkit-calendar-picker-indicator {
     height: 100vh;
     display: block;
   }
+  .reservation-content-description h2 {
+    text-align: center;
+  }
   .reservation .reservation-img {
     display: none;
   }
@@ -575,7 +578,7 @@ input[type="time"]:focus::-webkit-calendar-picker-indicator {
 .contact {
   height: 100vh;
   display: flex;
-  background-image: url('http://www.gastrotheme.com/sushi/wp-content/uploads/sites/5/2017/05/gastro-sushi-theme-background-02.jpg');
+  background-image: url('../image/gastro-sushi-theme-background-02.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

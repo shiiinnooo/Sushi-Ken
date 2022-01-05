@@ -25,6 +25,9 @@ html {
 .navbar .navbar-container .social-block li > a {
   color: #c9c9c9;
 }
+.navbar .navbar-container .social-block li > a:hover {
+  color: #cc2d0e;
+}
 .navbar .navbar-container h1 {
   color: #fff;
   font-family: 'PT Serif', serif;
@@ -611,8 +614,11 @@ input[type="time"]:focus::-webkit-calendar-picker-indicator {
 .contact-content-description .social-block li {
   margin: 0 .6em;
 }
-.contact-content-description  .social-block li > a {
+.contact-content-description .social-block li > a {
   color: #000;
+}
+.contact-content-description .social-block li > a:hover {
+  color: #cc2d0e;
 }
 .contact .contact-img {
   width: 100%;

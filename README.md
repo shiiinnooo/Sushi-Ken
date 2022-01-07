@@ -17,7 +17,7 @@
 ![](https://i.imgur.com/BpF9fa3.jpg)
 
 ##### MB預覽
-[youtube連結](https://youtu.be/yWRTXfWok6s)
+https://user-images.githubusercontent.com/85580326/148567961-9f2cdb2b-7869-4a0f-8e2d-9b4b9e8dbb74.mov
 
 滿版式選單
 ![](https://i.imgur.com/J4NzRd3.png)

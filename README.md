@@ -1,4 +1,4 @@
-# RWD 一頁式形象官網  Sushi Ken
+# RWD 一頁式形象官網 - Sushi Ken
 > 日式壽司的形象官網，手刻 RWD 設計。此為臨摹網站([參考連結](http://www.gastrotheme.com/sushi/home-split/))。
 > 
 ![](https://i.imgur.com/li0yipL.png)

@@ -17,7 +17,7 @@
 ![](https://i.imgur.com/BpF9fa3.jpg)
 
 ##### MB預覽
-{%youtube yWRTXfWok6s %}
+![](https://youtu.be/yWRTXfWok6s)
 
 滿版式選單
 ![](https://i.imgur.com/J4NzRd3.png)

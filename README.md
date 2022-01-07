@@ -9,11 +9,15 @@
 
 ## 使用技術
 - HTML + CSS 手刻完成 **RWD** 設計
-- 使用 Library : 使用 Swiper 製作圖片輪播效果、使用 wow.js 製造動畫效果
+- 使用 Library : 使用 [Swiper](https://swiperjs.com/) 製作圖片輪播效果、使用 [wow.js](https://wowjs.uk/) 製造動畫效果
 
 ## 畫面預覽
+
+##### PC預覽
 ![](https://i.imgur.com/BpF9fa3.jpg)
+
+##### MB預覽
+{%youtube yWRTXfWok6s %}
 
 滿版式選單
 ![](https://i.imgur.com/J4NzRd3.png)
-
